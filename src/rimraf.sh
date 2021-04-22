@@ -8,7 +8,5 @@ then
   exit 1
 fi
 destination=~/`basename $to_remove`-$RANDOM-$RANDOM-$RANDOM
-echo to_remove=$to_remove
-echo destination=$destination
 mv $to_remove $destination
-(rm -rf $destination && echo "$destination removed") &
+(rm -rf $destination) &
