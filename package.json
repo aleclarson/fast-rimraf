@@ -1,6 +1,6 @@
 {
   "name": "@alloc/fast-rimraf",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A tool to delete a huge directory fast",
   "bin": {
     "rimraf": "src/rimraf.sh"
